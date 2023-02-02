@@ -1,6 +1,6 @@
 module "cart" {
   source = "./vendor/modules/app"
   COMPONENT = var.COMPONENT
-  ENV = var.env
+  ENV = var.ENV
   instances = var.instances
 }
