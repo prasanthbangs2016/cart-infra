@@ -4,4 +4,5 @@ module "cart" {
   ENV = var.ENV
   instances = var.instances
   APP_PORT = 8080
+  LB_RULE_PRIORITY = 2
 }
